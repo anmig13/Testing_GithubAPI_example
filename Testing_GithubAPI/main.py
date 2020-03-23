@@ -1,4 +1,5 @@
 from person import Person
+from hello_world import Hello_World
 
 def main():
     # tworzymy dwa obiekty klasy Osoba
@@ -19,6 +20,9 @@ def main():
     Jan.wiek = 5
 
     Jan.przedstaw_sie()
+
+    hello = Hello_World("Ania")
+    hello.przywitaj_sie()
 
 
 if __name__ == "__main__":
