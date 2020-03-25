@@ -12,6 +12,7 @@ def main():
 
     wiek_Adama_przed = Adam.urodziny()
     Adam.przedstaw_sie()
+    print("yuhuuu :D")
     print(f"Wiek Adama sprzed urodzin: {wiek_Adama_przed}")
 
     # odwołujemy się do pól, modyfikujemy je
