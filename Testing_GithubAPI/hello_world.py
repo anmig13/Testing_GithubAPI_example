@@ -3,5 +3,6 @@ class Hello_World:
         self.imie = imie
 
     def przywitaj_sie(self):
-        print("Przywitaj sie:")
+        print("Przywitaj sie ")
+        print("ladnie :)")
         print(f"Hello {self.imie} ")
