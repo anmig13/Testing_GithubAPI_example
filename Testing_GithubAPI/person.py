@@ -6,7 +6,7 @@ class Person:
         self.wiek = wiek
     def przedstaw_sie(self):
         print(f"Jestem {self.imie} {self.nazwisko}. Mam {self.wiek} lat.")
-        print("Zgadza sie")
+        print("Zgadza sie :)")
     def urodziny(self):
         wiek_przed = self.wiek
         self.wiek += 1
