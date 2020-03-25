@@ -3,4 +3,5 @@ class Hello_World:
         self.imie = imie
 
     def przywitaj_sie(self):
+        print("Przywitaj sie:")
         print(f"Hello {self.imie} ")
